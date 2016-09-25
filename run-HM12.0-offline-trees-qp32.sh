@@ -1,6 +1,6 @@
 #!/bin/sh
 path=../../../../../../home/pargles/Documents/codificador_original/opt_v11
-out=Output-offline-trees-hm12-original-qp32.txt
+out=Output-offline-trees-hm12-qp32.txt
 
 #BQSquare_416x240
 #BasketballPass_416x240
