@@ -13,22 +13,22 @@ out=Output-online-trees-hm12-qp32.txt
 #PeopleOnStreet_2560x1600
 #SteamLocomotiveTrain_2560x1600
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQSquare.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQSquare.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballDrill.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballDrill.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/ChinaSpeed.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/ChinaSpeed.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SlideEditing.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SlideEditing.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQTerrace.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQTerrace.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Cactus.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Cactus.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Kimono.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Kimono.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/PeopleOnStreet.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/PeopleOnStreet.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}
 
 ${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SteamLocomotiveTrain_10bit.cfg -c ${path}/cfg/encoder_randomaccess_main_qp32.cfg >> ${out}

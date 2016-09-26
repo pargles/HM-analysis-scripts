@@ -25,7 +25,7 @@ files.each{ fileName ->
        
        if(line.contains("Total Time:")){
            println line
-           println ""
+           println "\n\n"
        }
        
        if(summary){
@@ -42,6 +42,8 @@ files.each{ fileName ->
        }
        
        if(line.contains("Time:")){
+            
+            println "  ${cuSize}x${cuSize} Time to build model: ${line.replace("Time: ","")}"
            cuSize = cuSize - cuSize/2
        }
        //example: 7  319(12.5%)
