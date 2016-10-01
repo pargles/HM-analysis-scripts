@@ -1,5 +1,5 @@
 def files = []
-files.add("Output-offline-trees-hm12-original-qp32.txt")
+files.add("Output-offline-trees-hm12-qp32.txt")
 
 boolean summary = false
 
