@@ -1,6 +1,6 @@
 #!/bin/sh
 path=../../../../../../home/pargles/Documents/codificador_original/opt_v11
-out=Output-offline-trees-hm12-qp27.txt
+out=Output-offline-trees-hm12-qp22.txt
 
 #BQSquare_416x240
 #BasketballPass_416x240
@@ -13,22 +13,22 @@ out=Output-offline-trees-hm12-qp27.txt
 #PeopleOnStreet_2560x1600
 #SteamLocomotiveTrain_2560x1600
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQSquare.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQSquare.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballDrill.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballDrill.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/ChinaSpeed.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/ChinaSpeed.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SlideEditing.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SlideEditing.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQTerrace.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQTerrace.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Cactus.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Cactus.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Kimono.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Kimono.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/PeopleOnStreet.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/PeopleOnStreet.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SteamLocomotiveTrain_10bit.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SteamLocomotiveTrain_10bit.cfg -c ${path}/cfg/encoder_randomaccess_main_qp22.cfg >> ${out}
