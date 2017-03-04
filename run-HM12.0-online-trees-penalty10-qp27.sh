@@ -1,5 +1,6 @@
 #!/bin/sh
-path=../../../../../../home/pargles/Documents/codificador/HM-12.0t2
+#path=../../../../../../home/pargles/Documents/codificador/HM-12.0t2
+path=../../../../../../home/pargles/Documents/codificador/HM-12.0
 out=Output-online-trees-hm12-with10TimesPenalty-qp27.txt
 
 #BQSquare_416x240
@@ -15,7 +16,7 @@ out=Output-online-trees-hm12-with10TimesPenalty-qp27.txt
 
 #${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQSquare.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 
-${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 
 #${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballDrill.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 
@@ -23,11 +24,11 @@ ${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c
 
 #${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/SlideEditing.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQTerrace.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQTerrace.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Cactus.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Cactus.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Kimono.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/Kimono.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 
 #${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/PeopleOnStreet.cfg -c ${path}/cfg/encoder_randomaccess_main_qp27.cfg >> ${out}
 

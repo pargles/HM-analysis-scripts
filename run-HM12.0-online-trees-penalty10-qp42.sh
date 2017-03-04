@@ -1,7 +1,7 @@
 #!/bin/sh
-path=../../../../../../home/pargles/Documents/codificador/HM-12.0t4
+#path=../../../../../../home/pargles/Documents/codificador/HM-12.0t4
 out=Output-online-trees-hm12-with10TimesPenalty-qp42.txt
-
+path=../../../../../../home/pargles/Documents/codificador/HM-12.0
 #BQSquare_416x240
 #BasketballPass_416x240
 #BasketballDrill_832x480
@@ -13,9 +13,9 @@ out=Output-online-trees-hm12-with10TimesPenalty-qp42.txt
 #PeopleOnStreet_2560x1600
 #SteamLocomotiveTrain_2560x1600
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQSquare.cfg -c ${path}/cfg/encoder_randomaccess_main_qp42.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BQSquare.cfg -c ${path}/cfg/encoder_randomaccess_main_qp42.cfg >> ${out}
 
-#${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp42.cfg >> ${out}
+${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballPass.cfg -c ${path}/cfg/encoder_randomaccess_main_qp42.cfg >> ${out}
 
 #${path}/bin/TAppEncoderStaticd -c ${path}/cfg/per-sequence/BasketballDrill.cfg -c ${path}/cfg/encoder_randomaccess_main_qp42.cfg >> ${out}
 
