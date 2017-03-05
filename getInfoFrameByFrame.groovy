@@ -1,6 +1,6 @@
-def file = new File("/home/pargles/Documents/HM-analysis-scripts/Output-offline-trees-hm12-qp32.txt")
+def file = new File("/home/pargles/Documents/HM-analysis-scripts/Output-online-trees-hm12-with10TimesPenalty-qp32.txt")
 
-def output = new File("/home/pargles/Documents/HM-analysis-scripts/frame-by-frame-Output-offline-trees.csv")
+def output = new File("/home/pargles/Documents/HM-analysis-scripts/frame-by-frame-Output-onlinr-trees-with-10-penalty.csv")
 
 file.eachLine{ line ->
 
